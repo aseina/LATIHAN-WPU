@@ -1,5 +1,6 @@
 body {
     line-height: 1;
+    background-image: url(img/sativa.png);
 
 }
 
@@ -63,6 +64,45 @@ body {
 }
 
 .hero {
-    height: 250px;
+    height: 280px;
     background-image: url(img/hero.jpg);
+    background-size: cover;
+    border-bottom: 5px solid lightskyblue;
+    border-top: 5px solid salmon;
+    
+}
+
+.content {
+    padding: 20px;
+}
+
+.content h2 {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+
+.content .penulis {
+    font-size: 11px;
+    margin-top: 5px;
+}
+
+.content p{
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.content .penulis a {
+    color: salmon;
+    text-decoration: none;
+}
+
+.footer {
+    background-color: #333;
+    padding: 15px;
+}
+
+.footer .copy {
+    color: #eaeaea;
+    text-align: center;
 }
