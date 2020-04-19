@@ -1,0 +1,38 @@
+body {
+
+}
+
+.main-site {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-color: steelblue;
+}
+
+.top-bar {
+    width: 100%;
+    height: 150px;
+    position: relative;
+    background-color: red;
+}
+
+.logo-top {
+    width: 150px;
+    height: 150px;
+    background-color: salmon;
+    position: relative;
+}
+
+.menu-bar {
+    height: 100px;
+    width: calc('100%-150px');
+    background-color: sienna;
+    position: relative;
+    top: 30;
+}
+
+
+footer {
+    position: absolute;
+    bottom: 0;
+}
